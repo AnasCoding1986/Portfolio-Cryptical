@@ -42,10 +42,10 @@ ul
     padding: 0 30px;
     opacity: 1;
 }
-.hidden
+/* .hidden
 {
     display: none !important;
-}
+} */
 .main-Content
 {
     padding-left: 270px;
@@ -76,6 +76,7 @@ ul
     font-size: 40px;
     color: var(--text-black-900);
     font-weight: 700;
+    margin-bottom: 70px;
     position: relative;
 }
 .section-title h2::before
@@ -340,7 +341,7 @@ h3.my-profession
 }
 .about .about-content .about-text
 {
-    padding-top: 50px;
+    /* padding-top: 50px; */
     flex: 0 0 100%;
     max-width: 100%;
 }
@@ -526,15 +527,15 @@ h3.my-profession
     text-align: justify;
     color: var(--text-black-700);
 }
-/* ======About====== */
+/* ======Service====== */
 .service .container
 {
     padding-bottom: 40px;
 }
-.service .section-title
+/* .service .section-title
 {
     margin-bottom: 80px;
-}
+} */
 
 .service .service-item
 {
@@ -602,7 +603,7 @@ h3.my-profession
 }
 .portfolio .portfolio-heading
 {
-    margin-top: 80px;
+    /* margin-top: 80px; */
     flex: 0 0 100%;
     max-width: 100%;
     margin-bottom: 40px;
@@ -629,4 +630,49 @@ h3.my-profession
 {
     width: 100%;
     display: block;
+}
+/* ======Contact====== */
+.contact-title
+{
+    color: var(--skin-color);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.contact-sub-title
+{
+    color: var(--text-black-900);
+    text-align: center;
+    font-size: 15px;
+}
+.contact .contact-info-item
+{
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+    padding-top: 50px;
+}
+.contact .contact-info-item .icon
+{
+    display: inline-block;
+}
+.contact .contact-info-item .icon .fa 
+{
+    font-size: 25px;
+    color: var(--skin-color);
+}
+.contact .contact-info-item .icon h4
+{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+    margin: 15px 0 5px;
+}
+.contact .contact-info-item .icon p
+{
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--text-black-700);
+    font-weight: 400;
 }

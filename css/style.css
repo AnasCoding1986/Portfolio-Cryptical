@@ -32,6 +32,10 @@ body
     text-decoration: none;
     box-sizing: border-box;
 }
+html
+{
+    scroll-behavior: smooth;
+}
 ::before,::after
 {
     box-sizing: border-box;
@@ -40,6 +44,14 @@ body
 ul
 {
     list-style: none;
+}
+h4
+{
+    color: var(--text-black-900);
+}
+p
+{
+    color: var(--text-black-700);
 }
 /* ======section====== */
 .section
@@ -671,6 +683,7 @@ h3.my-profession
 {
     font-size: 25px;
     color: var(--skin-color);
+    margin-bottom: 10px;
 }
 .contact .contact-info-item .icon h4
 {
@@ -771,7 +784,7 @@ h3.my-profession
 {
     h3.hello
        {
-        padding-left: 20px;
+        text-align: center;
        }
     h3.hello span
        {
